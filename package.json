@@ -1,33 +1,37 @@
 {
-  "name": "react-tutorial",
+  "name": "hello-world",
   "version": "0.0.0",
-  "description": "Code from the React tutorial.",
-  "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.4.3",
-    "express": "^4.4.5"
-  },
-  "devDependencies": {},
+  "description": "a hello world sample for react js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "webpack-dev-server --content-base app/",
+    "test": "none"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/reactjs/react-tutorial.git"
+    "url": "none"
   },
-  "keywords": [
-    "react",
-    "tutorial",
-    "comment",
-    "example"
-  ],
-  "author": "petehunt",
-  "bugs": {
-    "url": "https://github.com/reactjs/react-tutorial/issues"
+  "author": "brian njenga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "jQuery": "^1.7.4",
+    "jsdom": "^7.1.1",
+    "location": "0.0.1",
+    "navigator": "^1.0.1",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3",
+    "xmlhttprequest": "^1.8.0"
   },
-  "homepage": "https://github.com/reactjs/react-tutorial",
-  "engines" : {
-    "node" : "0.12.x"
+  "devDependencies": {
+    "babel-core": "^6.3.2",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-stage-0": "^6.1.18",
+    "css-loader": "^0.23.0",
+    "style-loader": "^0.13.0"
   }
 }
