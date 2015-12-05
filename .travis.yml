@@ -1,1 +1,5 @@
-language: nodejs
+sudo: false
+language: node_js
+node_js:
+  - "stable"
+  - "5.1.0"
