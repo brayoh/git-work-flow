@@ -1,0 +1,11 @@
+Version 0.1.0
+ - bumped version
+ - Merge branch 'feature/myfeature' into develop
+ - changed readme
+ - fixed errors
+ - fixed errors
+ - fixed errors
+ - added webpack to dev dependecies
+ - initial commit
+ - Import source code
+
