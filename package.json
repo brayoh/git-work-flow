@@ -7,7 +7,7 @@
     "watch": "watchify app.jsx -o public/js/bundle.js -v",
     "browserify": "browserify -t reactify app.jsx | uglifyjs > public/js/bundle.js",
     "build": "npm run browserify ",
-    "start": "npm run watch & nodemon server.js",
+    "start": "nodemon server.js",
     "test": "none"
   },
   "repository": {
